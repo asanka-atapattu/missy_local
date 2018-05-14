@@ -12,6 +12,9 @@
                     $(element).select('option').each (function(elem){
                         if ($(elem).value == optVal && !inStock) {
                             $(elem).disabled="disabled";
+							/*
+							The main branch should be considered origin/master and will be the main branch where the source code of HEAD always reflects a state with the latest delivered development changes for the next release. As a developer, you will you be branching and merging from master.
+							*/
                         }
                     });
                 }
